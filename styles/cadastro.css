@@ -1,0 +1,87 @@
+@import url(global.css);
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  color: #333;
+}
+
+#titulo {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#subtitulo {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grupo {
+  display: flex;
+  justify-content: space-between;  /* Alinha os campos lado a lado */
+  gap: 20px;  /* Adiciona um espaçamento entre os campos */
+  margin-bottom: 20px;
+  flex-wrap: wrap;  /* Permite que os campos se ajustem quando necessário */
+}
+
+.campo {
+  flex: 1 1 calc(50% - 10px);  /* Cada campo ocupa 50% do espaço disponível, mas com espaçamento */
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.botao {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}
+
+

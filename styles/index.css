@@ -1,0 +1,46 @@
+@import url(global.css);
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;}
+
+  #button {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; }
+    #button a input[type="button"] {
+      padding: 1rem 2rem; 
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-color: #007bff; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; 
+    }
+    
+    #button a input[type="button"]:hover {
+      background-color: #0056b3; 
+    }
+    
+    #button a {
+      flex: 1;
+      text-align: center;
+    }
+    
+    #button a:not(:last-child) {
+      margin-right: 1rem; 
+    }
+  
